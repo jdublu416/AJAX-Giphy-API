@@ -1,0 +1,1 @@
+# AJAX-Giphy-API
