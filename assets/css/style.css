@@ -11,13 +11,18 @@ body{
 
 .logo{
 
-    height:200px;
+    height:auto;
     background-color: #a7b043;
     color: white;
-    font-size: 6rem;
+    font-size: 4rem;
     text-align: center;
     padding-top: 50px;
 }
+
+   .logo h2{
+    font-size: 2rem;
+    }
+
 label{
     color:white;
 }
