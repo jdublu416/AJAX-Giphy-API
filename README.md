@@ -1,1 +1,4 @@
 # AJAX-Giphy-API
+This project originated as a homework assignment for the University of Richmond Bootcamp. The object of the assignment is to learn the use of Ajax and API's while deepening one's understanding of all the previously learned topics to include HTML/CSS, jquery/javascript, @media queries, type:obj, and scope. 
+
+This assignment challenges one to understand the nuances of API's and how to access GIF's from a popular site, GIPHY API. The user will be given a number of buttons to choose from, while also having the choice to add their own search button. If the user chooses to add their own button, as with the original buttons, he will have 10 GIF's displayed on the page. The GIF will have a rating and a title to the GIF. Additionally, the GIF will render as a still image and will animate when clicked.
