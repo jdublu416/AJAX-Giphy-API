@@ -1,0 +1,87 @@
+body{
+    background-image: url("../images/bgtree.jpeg");
+    background-repeat: no-repeat;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 32px;
+    /* height: 100%; */
+    background-position: center;
+    background-size: cover;
+    /* margin-top: 50px; */
+}
+
+.logo{
+
+    height:200px;
+    background-color: #a7b043;
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 50px;
+}
+label{
+    color:white;
+}
+
+#content{
+    
+    display:grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 5px;
+    grid-template-areas:
+    "header header header header header header"
+    "main main main main main main"
+    ". section section section aside aside"
+    ". section section section aside aside"
+    "footer footer footer footer footer footer"
+    ;
+}
+header{
+grid-area: header;
+}
+section{
+grid-area: section;
+
+}
+
+main{
+grid-area: main;
+}
+aside{
+grid-area: aside;
+}
+
+.button{
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.btnGiphy{
+    background-color: #d2cbb5;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+#btnUserinput{
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p{
+    
+    color:#494e2a;
+    background-color: #d2cbb5;
+    border-radius: 10px;
+}
+img{
+    
+    width:200px;
+    
+}
