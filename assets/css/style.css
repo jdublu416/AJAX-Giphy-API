@@ -13,7 +13,7 @@ body{
 
     height:auto;
     background-color: #a7b043;
-    color: white;
+    color: #494e2a;
     font-size: 4rem;
     text-align: center;
     padding-top: 50px;
@@ -84,6 +84,7 @@ p{
     color:#494e2a;
     background-color: #d2cbb5;
     border-radius: 10px;
+    max-width: 250px;
 }
 img{
     
