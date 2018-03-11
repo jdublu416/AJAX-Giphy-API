@@ -17,6 +17,7 @@ body{
     font-size: 4rem;
     text-align: center;
     padding-top: 50px;
+    
 }
 
    .logo h2{
@@ -39,7 +40,6 @@ label{
     "main main main main main main"
     ". section section section aside aside"
     ". section section section aside aside"
-    "footer footer footer footer footer footer"
     ;
 }
 header{
@@ -47,6 +47,8 @@ grid-area: header;
 }
 section{
 grid-area: section;
+
+
 
 }
 
@@ -82,12 +84,110 @@ grid-area: aside;
 p{
     
     color:#494e2a;
-    background-color: #d2cbb5;
+    background-color: #a7b043;
     border-radius: 10px;
     max-width: 250px;
 }
 img{
     
     width:200px;
+    float: left;
+    margin-top:5px;
     
+    
+}
+
+ footer{
+   
+    color: white;
+    font-size: 1rem;
+  
+} 
+
+
+
+@media only screen and (max-width: 1062px){
+    #content{
+    
+        display:grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(6,1fr);
+        grid-auto-rows: minmax(100px,auto);
+        grid-gap: 5px;
+        grid-template-areas:
+        "header header header header header header"
+        "main main main main main main"
+        ". . . aside aside aside"
+        ". section section section section ."
+        ". section section section section ."
+        
+        ;
+    }
+}
+
+@media only screen and (max-width: 850px){
+
+    #content{
+    
+        display:grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows: minmax(100px,auto);
+        grid-gap: 5px;
+        grid-template-areas:
+        "header header header header"
+        "main main main main"
+        ". aside aside ."
+        ". section section section"
+        ". section section section"
+        
+        ;
+    }
+
+}
+@media only screen and (max-width:660px){
+    #content{
+    
+        display:grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: minmax(100px,auto);
+        grid-gap: 5px;
+        grid-template-areas:
+        "header header header"
+        "main main main"
+        "aside aside aside"
+        ". section section"
+        ". section section"
+        ;
+
+        padding-left: 10px;
+    }
+
+
+}
+@media only screen and (max-width:400px){
+    #content{
+    
+        display:grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: minmax(100px,auto);
+        grid-gap: 5px;
+        grid-template-areas:
+        "header header header"
+        "main main main"
+        "aside aside aside"
+        "section section section"
+        "section section section"
+        ;
+
+        padding-left: 15px;
+       
+    }
+    section{
+        margin-left: 20px;
+    }
+
+
 }
