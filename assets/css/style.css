@@ -3,11 +3,9 @@ body{
     background-repeat: no-repeat;
     font-family: 'Shadows Into Light Two', cursive;
     font-size: 32px;
-    /* height: 100%; */
     background-position: center;
     background-size: cover;
-    /* margin-top: 50px; */
-}
+} 
 
 .logo{
 
