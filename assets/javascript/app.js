@@ -86,6 +86,7 @@ $(document).ready(function() {
       var btnNew = $("<button>");
       btnNew.addClass("btnGiphy");
       btnNew.attr("data-name", topics[i]);
+      btnNew.attr("data-state", "still");
       btnNew.text(topics[i]);
       $("#buttonGroup").append(btnNew);
     }
