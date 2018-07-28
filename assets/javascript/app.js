@@ -65,6 +65,8 @@ $(document).ready(function() {
 
         var state = $(this).attr("data-state");
 
+        console.log(state);
+
         if (state === "still") {
           console.log("yup");
           $(this).attr("src", $(this).attr("data-animate"));
