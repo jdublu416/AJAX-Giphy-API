@@ -81,7 +81,7 @@ $(document).ready(function() {
 
   function createButtons() {
     $("#buttonGroup").empty();
-
+//create a new button with attributes and classes and add to button group
     for (var i = 0; i < topics.length; i++) {
       var btnNew = $("<button>");
       btnNew.addClass("btnGiphy");
